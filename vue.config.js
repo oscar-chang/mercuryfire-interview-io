@@ -11,7 +11,7 @@ export default defineConfig(() => {
     plugins: [
       vue(),
       eslintPlugin({
-        include: [/*'src/xx/x.js', 'src/xx/x.vue', 'src/x.js',*/ 'src/pages/IndexPage.vue']
+        include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue']
       })
     ],
     resolve: {
